@@ -1,0 +1,571 @@
+
+
+:root{
+    --Moderate-cyan: hsl(176, 50%, 47%)
+    --Dark-cyan: hsl(176, 72%, 28%)
+    --Black: hsl(0, 0%, 0%)
+    --Dark-gray: hsl(0, 0%, 48%)
+    $Font-size: 36px
+    --Family: [Commissioner](https:"//fonts.google.com/specimen/Commissioner")
+    $Weights: 400, 500, 700
+
+}
+
+label.logo{
+    font-size: 36px;
+    font-weight:bold;
+    color: white;
+    margin-left: 1rem;
+    line-height: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    display: block;
+    color: white;
+    font-size: 36px;
+    float: left;
+    
+}
+
+.menu a{
+    margin-top: -4rem;
+    margin-left: 15rem;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav li{
+    display: none;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+.navigation{
+    background-image: url("/image-hero-mobile.jpg");
+    min-width: fit-content;
+    margin: auto;
+    height: 60%;
+    display: block; 
+    
+}
+
+.master{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    margin-left: 45%;
+    margin-top: -2rem;
+}
+
+.innerdiv{
+    display: block;
+    max-height: fit-content;
+    width: 85%;
+    align-self: center;
+    margin: auto;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 15rem;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 1rem;
+}
+
+.innerdiv2{
+    max-height: fit-content;
+    width: 85%;
+    align-self: center;
+    margin: auto;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 35rem;
+    background-color: white;
+    border-radius: 20px;   
+    padding-bottom: 1rem;
+
+}
+
+.innerdiv3{
+    max-height: fit-content;
+    width: 85%;
+    align-self: center;
+    margin: auto;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 64rem;
+    background-color: white;
+    border-radius: 20px;   
+    padding-bottom: 1rem;
+
+}
+
+.dolla{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content{
+    padding: 2rem 2rem;
+}
+
+.content p{
+    color: hsl(0, 0%, 48%);
+}
+
+h5{
+    font-weight: 700;
+    color: hsl(0, 0%, 0%);
+}
+
+.ddiv{
+    display: grid;
+    grid-template-rows: (3, 1fr);  
+    grid-gap: 2rem;padding-bottom: 2rem;
+}
+.ddiv1, .ddiv2, .ddiv3{
+    max-height: fit-content;
+    width: 75%;
+    margin-left: 1.5rem;
+    display: block;
+    border: 2px solid hsl(0, 0%, 48%);
+    background-color: white;
+    border-radius: 20px;   
+    padding: 1rem 1rem;
+}
+
+.ddiv3{
+    background-color:  rgb(250, 249, 248);
+}
+
+.inc{
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.inc1{
+    font-weight: 700;
+}
+.inc2{
+    color: aqua;
+}
+.incr1{
+    font-weight: 700;  
+    font-size: 35px;
+}
+.incr1 span{
+    color: darkgrey;
+    font-size: 16px;
+    font-weight: 500;  
+    margin-top: 9.5rem;
+}
+.incr2{
+    cursor: pointer;
+    background-color:hsl(176, 50%, 47%);
+    padding: 1rem;
+    max-width: fit-content;
+    border-radius: 3rem;
+    color: #fff;
+}
+
+.semd{
+    margin-top: -1.5rem;
+    text-align: center;
+}
+.sent{
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+    color: hsl(0, 0%, 48%)
+}
+
+.line1, .line2{
+    align-self: center;
+    margin: auto;
+    width: 7rem;
+    height: 1px;
+    background-color: darkgray;
+}
+
+.line3{
+    margin-top: 7rem;
+    margin: auto;
+    align-self: center;
+    width: 88%;
+    height: 1rem;
+    background-color:  darkgray;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+
+.line4{
+    
+    margin-top: 2rem;
+    width: 65%;
+    height: 1rem;
+    background-color: hsl(176, 50%, 47%);;
+    border-radius: 1rem;
+}
+
+.divn{
+    padding-top: 3rem;
+    margin: auto;
+    padding-left: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+  
+.logtxt{
+    
+    font-size: 25px;
+    font-weight:700;
+    text-align: center;
+    
+  }
+.semtxt{
+    text-align: center;
+    font-size: 16px;
+    color: hsl(0, 0%, 48%);
+}
+
+.container1 {
+    display: grid;
+    gap: 20rem;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+}
+
+.this{
+    background-color:hsl(176, 50%, 47%);
+    padding: 1rem;
+    width: 8rem;
+    margin: auto;
+    margin-left: 1rem;
+    border-radius: 3rem;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+}
+
+.bookmark{
+    cursor: pointer;
+    background-color: darkgray;
+    max-width: fit-content;
+    border-radius: 5rem;
+    margin-left: -10rem;
+}
+.book{
+    padding: 1rem;
+    display: none;
+}
+.bookicon{
+    margin-left: -9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1444px){
+
+    .navigation{
+        background-image: url("/image-hero-desktop.jpg");
+        width: 97%;
+        margin: auto;
+        height: 55%;
+        display: block; 
+        
+    }
+
+    nav li{
+        display:inline-block;
+        margin: 0 8px;
+        line-height: 18px;
+        margin-top: 30px;
+        color: #fff;
+    
+        
+    }
+    a{
+        color: white;
+        font-size: 16px;
+        border: 1px solid transparent;
+        padding: 7px 10px;
+        border-radius: 3px;
+        text-decoration: none;
+    
+    }
+    nav ul{
+        float: right;
+        margin-right: 40px;
+    
+    }
+    .menu{
+        display: none;
+    }
+    label.logo{
+        font-size: 26px;
+        font-weight:bold;
+        color: white;
+        padding: 0 100px;
+        line-height: 80px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    
+    .master{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    margin-left: 45%;
+    margin-top: -2rem;
+}
+.innerdiv{
+  
+    height: 30%;
+    width: 50%;
+    align-self: center;
+    margin: auto;
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 15rem;
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 2rem;
+}
+.innerdiv2{
+    height: 30%;
+    width: 50%;
+    align-self: center;
+    margin: auto;
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 32rem;
+    background-color: white;
+    border-radius: 20px;   
+}
+
+.innerdiv3{
+    height: 77rem;
+    width: 50%;
+    align-self: center;
+    margin: auto;
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 48rem;
+    background-color: white;
+    border-radius: 20px;   
+}
+
+.container1 {
+    display: grid;
+    gap: 20rem;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+}
+
+
+.this{
+    background-color:hsl(176, 50%, 47%);
+    padding: 1rem;
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 3rem;
+    color: #fff;
+    display: block;
+
+}
+
+.bookmark{
+    display: flex;
+    background-color: darkgray;
+    width:10rem ;
+    border-radius: 5rem;
+    margin-left: 1rem;
+}
+.book{
+    padding: 1rem;
+    display: block;
+}
+
+.bookicon{
+    margin-left: 0;
+}
+
+
+.dolla{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.content{
+    padding: 2rem 2rem;
+}
+
+.content p{
+    color: hsl(0, 0%, 48%)
+}
+
+h5{
+    font-weight: 700;
+    color: hsl(0, 0%, 0%);
+}
+
+.ddiv{
+    display: grid;
+    grid-template-rows: (3, 1fr);  
+    grid-gap: 2rem; 
+}
+.ddiv1, .ddiv2, .ddiv3{
+    height: 12rem;
+    width: 75%;
+    margin-left: 2.5rem;
+    display: block;
+    border: 2px solid hsl(0, 0%, 48%);;
+    background-color: white;
+    border-radius: 20px;   
+    padding: 3rem 3rem;
+}
+.ddiv3{
+    background-color:  rgb(250, 249, 248);
+
+}
+
+.inc{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.inc1{
+    font-weight: 700;
+}
+.inc2{
+    color: aqua;
+}
+.incr1{
+    font-weight: 700;  
+    font-size: 35px;
+}
+.incr1 span{
+    color: darkgrey;
+    font-size: 16px;
+    font-weight: 500;  
+    margin-top: 9.5rem;
+}
+.incr2{
+    background-color:hsl(176, 50%, 47%);
+    padding: 1rem;
+    max-width: fit-content;
+    border-radius: 3rem;
+    color: #fff;
+}
+
+.semd{
+    margin-top: -1.5rem;
+}
+.sent{
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+    color: hsl(0, 0%, 48%)
+}
+
+.line1, .line2{
+    align-self: center;
+    margin: auto;
+    height: 7rem;
+    width: 1px;
+    background-color: darkgray;
+}
+
+.line3{
+    margin-top: 7rem;
+    margin: auto;
+    align-self: center;
+    width: 88%;
+    height: 1rem;
+    background-color:  darkgray;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+.line4{
+    
+    margin-top: 2rem;
+    width: 65%;
+    height: 1rem;
+    background-color: hsl(176, 50%, 47%);;
+    border-radius: 1rem;
+}
+
+.divn{
+    padding-top: 3rem;
+    margin: auto;
+    padding-left: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+  
+.logtxt{
+    
+    font-size: 25px;
+    font-weight:700;
+    text-align: center;
+    
+    }
+.semtxt{
+    text-align: center;
+    font-size: 16px;
+    color: hsl(0, 0%, 48%);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
