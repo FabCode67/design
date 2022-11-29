@@ -60,7 +60,7 @@ body{
 }
 
 .navigation{
-    background-image: url("/image-hero-mobile.jpg");
+    background-image: url("image-hero-mobile.jpg");
     min-width: fit-content;
     margin: auto;
     height: 60%;
@@ -340,7 +340,7 @@ h5{
     }
     
     .navigation{
-        background-image: url("/image-hero-mobile.jpg");
+        background-image: url("image-hero-mobile.jpg");
         min-width: fit-content;
         margin: auto;
         height: 60%;
@@ -658,7 +658,7 @@ label.logo{
 
     
     .navigation{
-        background-image: url("/image-hero-desktop.jpg");
+        background-image: url("image-hero-desktop.jpg");
         min-width: fit-content;
         margin: auto;
         height: 29%;
@@ -888,7 +888,7 @@ label.logo{
 
 @media screen and (min-width:  1366px){
     .navigation{
-        background-image: url("/image-hero-desktop.jpg");
+        background-image: url("image-hero-desktop.jpg");
         height: 65% ;
         width: 100%;
     }
