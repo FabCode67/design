@@ -578,6 +578,7 @@ h5{
 }
 
  @media screen and (min-width: 375px){
+  
     .bookmark{
         cursor: pointer;
         background-color: hsl(0, 0%, 48%);
@@ -585,8 +586,15 @@ h5{
         border-radius: 5rem;
         margin-left: -7rem;
     }
+
+    .ddiv1, .ddiv2, .ddiv3{
+        margin-left: 1.3rem;
+     }
     .innerdiv{
         margin-top: 15rem;
+    }
+    .innerdiv3{
+        margin-top: 62.8rem;
     }
  }
  @media screen and (min-width: 414px){
